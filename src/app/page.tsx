@@ -24,7 +24,7 @@ export default function Home() {
             </h3>
             <div className='flex items-center flex-wrap'>
               {data.map((item, index) => (
-                <TampilanRumahItem />
+                <TampilanRumahItem key={index} />
               ))}
             </div>
           </div>
@@ -47,7 +47,7 @@ export default function Home() {
             </h3>
             <div className='flex items-center flex-wrap'>
               {[1, 2, 3, 4].map((item, index) => (
-                <DetailAnotherDesign />
+                <DetailAnotherDesign key={index} />
               ))}
             </div>
           </div>

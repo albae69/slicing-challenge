@@ -2,8 +2,8 @@ import Image from 'next/image'
 import { TampilanRumah } from '@/assets/images'
 
 interface TampilanRumahItem {
-  title: string
-  desc: string
+  title?: string
+  desc?: string
 }
 
 export default function TampilanRumahItem({ title, desc }: TampilanRumahItem) {
