@@ -11,6 +11,8 @@ import {
   SwapHouse,
   ArrowDownRed,
   ArrowRight,
+  Width,
+  AccountCircle,
 } from '@/assets/images'
 
 interface Icons {
@@ -34,6 +36,27 @@ export default function Icons({ name, alt = '', className }: Icons) {
       break
     case 'arrow-right':
       src = ArrowRight
+      break
+    case 'sae-logo':
+      src = StudioSae
+      break
+    case 'width':
+      src = Width
+      break
+    case 'swap-house':
+      src = SwapHouse
+      break
+    case 'ph-stairs':
+      src = PHStairs
+      break
+    case 'bedroom':
+      src = Bedroom
+      break
+    case 'account-circle':
+      src = AccountCircle
+      break
+    case 'star':
+      src = Star
       break
     default:
       src = Logo

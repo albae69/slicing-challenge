@@ -1,12 +1,14 @@
 interface Button {
   title: string
   type?: 'primary' | 'secondary'
+  className?: string
 }
 
-export default function Button({ title, type }: Button) {
+export default function Button({ title, type, className }: Button) {
   if (type == 'primary') {
     return (
-      <button className='h-10 rounded-md bg-red  px-4 items-center text-white font-semibold text-base'>
+      <button
+        className={`h-10 rounded-md bg-red  px-4 items-center font-semibold text-base ${className}`}>
         {title}
       </button>
     )

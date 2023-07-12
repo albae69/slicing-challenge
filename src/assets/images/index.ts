@@ -9,6 +9,9 @@ import SwapHouse from './swap-house.svg'
 import ArrowDownRed from './arrow-down-red.svg'
 import ArrowRight from './arrow-right.svg'
 import Hero from './hero.png'
+import TampilanRumah from './tampilan-rumah.png'
+import Width from './width.svg'
+import AccountCircle from './account_circle.svg'
 
 export {
   Logo,
@@ -22,4 +25,7 @@ export {
   ArrowDownRed,
   ArrowRight,
   Hero,
+  TampilanRumah,
+  Width,
+  AccountCircle,
 }

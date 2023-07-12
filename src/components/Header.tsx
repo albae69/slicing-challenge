@@ -22,7 +22,7 @@ export default function Header() {
       </nav>
       <div className='flex items-center w-48 justify-between'>
         <Button title='Daftar' />
-        <Button title='Masuk' type='primary' />
+        <Button title='Masuk' type='primary' className='text-white' />
       </div>
     </header>
   )

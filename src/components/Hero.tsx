@@ -31,7 +31,7 @@ function Arrow(isRight?: boolean) {
       style={{ border: '1px solid red' }}>
       <Icons
         name='arrow-down'
-        className={`${isRight ? '-' : ''}rotate-90 h-7 w-7`}
+        className={`${isRight ? '-rotate-90' : 'rotate-90'} h-7 w-7`}
       />
     </button>
   )
